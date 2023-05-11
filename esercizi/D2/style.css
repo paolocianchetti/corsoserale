@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+#logo {
+    width: 14rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+#boxed {
+    border-top: 2px solid orange;
+    background-color: seashell;
+    color: darkgreen;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+main {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h1 {
+    width: 35rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main p {
+    text-align: left;
+    line-height: 1.3rem;
+    margin-bottom: 0;
+}
+
+#focaccia {
+    border-radius: 10px;
+    transform: scale(0.9) translate(-40px, -1px);
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+}
+
+h5 {
+    color: gray;
+    margin-top: 0;
+}
+
+#main-link {
+    border-left: 1px solid orange;
+    text-align: left;
+}
+
+#main-link span {
+    display: block;
+    color: rgba(183, 5, 5, 0.685);
+    margin-left: 1rem;
+}
+
+#main-link a {
+    color: rgb(26, 168, 156);
+    margin-left: 1rem;
+}
+
+#ingredients {
+    text-align: left;
+}
+
+#ingredients h2 {
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid cyan;
+}
+
+ul {
+    line-height: 2.2rem;
+}
+
+#method {
+    text-align: left;
+}
+
+#method h2 {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid cyan;
+}
+
+footer {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    text-align: left;
+}
+
+footer a {
+    color: rgb(26, 168, 156);
+}
