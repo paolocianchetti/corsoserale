@@ -1,0 +1,74 @@
+* { box-sizing: border-box;}
+body {
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem; */
+    font: 1.1rem Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    /*justify-content: space-between;*/
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > * { /* tutti i figli diretti di .container */
+    /*flex-grow: 1;*/
+    padding: 20px;
+}
+
+section#lato { flex-grow: 1;} /* width: 20% */
+main { flex-grow: 5; } /* width: 80% */
+
+main nav:first-of-type ul li {
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.videolista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.videocard {
+    width: 33%;
+    margin-bottom: 15px;
+}
+
+.videocard img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.videocard h2 {
+    font-size: 1.1rem;
+}
+
+.videocard p {
+    font-size: 0.7em;
+}
+.videocard h2 a, .videocard p a {
+    text-decoration: none;
+
+}
+
+
+/* SECTION#LATO (padding 20px) */
+/* .container {flex container 20% - 80%} */
+/* MAIN (padding: 20px) */
+/* .card (margin: 10px) */
+/* UL radius 10px grigio padding 8px */
+/* HEADER flex container space-between */
+
+/* COLORI TEMP */
+/* .container { background-color: red;}
+header { background-color: aquamarine;}
+#lato { background-color: blanchedalmond;}
+main { background-color: darkkhaki;} */
